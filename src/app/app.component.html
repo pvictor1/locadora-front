@@ -1,35 +1,55 @@
 
-<form>
-<mat-toolbar color="primary">
 
-    <span>Bem vindo ao Cinerama</span>
-  </mat-toolbar>
+
+<form>
+
+
+  <p>
+    <mat-toolbar color="primary">
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <span >Bem vindo ao Cinerama</span>
+      <span class="example-spacer"></span>
+      <button  class="example-icon login-icon" aria-label="Example icon-button with heart icon"   matTooltip="Faça seu login">
+        <mat-icon class="example-icon">login</mat-icon>
+      </button>
+      <button mat-icon-button class="example-icon login-out-icon" aria-label="Example icon-button with share icon" matTooltip="Desconectar">
+       <mat-icon>logout</mat-icon>
+     </button>
+
+    </mat-toolbar>
+  </p>
+
+
+
+  <h1 class=""> Cadastro de Cliente</h1>
 
   <form class="example-form">
     <div> <mat-form-field class="example-full-width">
       <mat-label>Nome: </mat-label>
-      <input width="400px" matInput placeholder="insera seu nome completo.">
+      <input width="400px" matInput placeholder="insira seu nome completo.">
     </mat-form-field>
   </div>
 
   <div>
     <mat-form-field class="example-full-width">
       <mat-label>CPF: </mat-label>
-      <input matInput placeholder="insera seu cpf.">
+      <input matInput placeholder="insira seu cpf.">
     </mat-form-field>
   </div>
 
   <div>
     <mat-form-field class="example-full-width">
       <mat-label>Idade: </mat-label>
-      <input matInput placeholder="insera sua idade.">
+      <input matInput placeholder="insira sua idade.">
     </mat-form-field>
   </div>
 
   <div>
     <mat-form-field class="example-full-width">
       <mat-label>Endereço: </mat-label>
-      <input matInput placeholder="insera seu endereço completo.">
+      <input matInput placeholder="insira seu endereço completo.">
     </mat-form-field>
   </div>
 
@@ -37,7 +57,7 @@
   <div>
     <mat-form-field class="example-full-width">
       <mat-label>telefone: </mat-label>
-      <input matInput placeholder="insera seu telefone.">
+      <input matInput placeholder="insira seu telefone.">
     </mat-form-field>
   </div>
 
@@ -105,3 +125,6 @@
   </table>
 
   </form>
+
+
+
