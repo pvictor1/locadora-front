@@ -17,3 +17,32 @@
 .example-icon{
   margin-right: 5px;
 }
+
+.example-full-width {
+  width: 45%;
+}
+
+#titulo{
+  display: flex;
+  margin: auto;
+  margin-left: 50%;
+
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+
+}
+
+.example-icon{
+  margin-right: 5px;
+}
+
+.divForm{
+  text-align: center;
+  background: antiquewhite;
+  border-radius: 6%;
+  width: 50%;
+  margin-left: 25%;
+  border: 1px solid black;
+}
